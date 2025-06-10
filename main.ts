@@ -30,3 +30,4 @@ let rock = sprites.create(img`
     c c b b c c c c 
     `, SpriteKind.Food)
 controller.moveSprite(mySprite)
+music.play(music.stringPlayable("- - - - C5 B - - ", 120), music.PlaybackMode.UntilDone)
